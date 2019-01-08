@@ -17,7 +17,7 @@ define( 'utrbr_PLUGIN_URL', plugins_url( dirname( plugin_basename( __FILE__ ) ) 
 add_action('admin_menu', 'utrbr_create_menu');
 function utrbr_create_menu() {
 	// or create options menu page
-	add_options_page(__('Uptime Robot Setup'),__('Uptime Robot Setup'), 'manage_options', utrbr_PLUGIN_DIR.'/pum_settings.php');
+	add_options_page(__('Uptime Robot Setup'),__('Uptime Robot Setup'), 'manage_options', utrbr_PLUGIN_DIR.'/utrbr_settings.php');
 }
 
 //Shortcode
